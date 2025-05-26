@@ -19,10 +19,17 @@ class Sales extends Department{
 }
 
 interface IT_Support{
-    
-}
-
-class Manage_IT_Ticket implements IT_Support{
 
 }
 
+interface HelpDesk{
+
+}
+
+class Manage_IT_Ticket implements IT_Support, HelpDesk{
+
+}
+
+class Infrastructure implements IT_Support{
+
+}
