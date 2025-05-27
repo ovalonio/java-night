@@ -19,6 +19,7 @@ class Menudo extends Afritada{
     System.out.println("Menudo = "+java.util.Arrays.toString(Ingredients)+"🍲 \n");
   }
 }
+  
 
 class Mechado extends Afritada{
   public void showIngredients(){
@@ -44,6 +45,7 @@ class Caldereta extends Afritada {
     System.out.println("Caldereta = "+java.util.Arrays.toString(Ingredients)+"🍲 \n");
   }
 }
+
 
 public class Task131 {
     public static void main(String[] args) {
