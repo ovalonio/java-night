@@ -46,6 +46,7 @@ class Caldereta extends Afritada {
   }
 }
 
+
 public class Task131 {
     public static void main(String[] args) {
       // add 4 meal$ objects here and set the type as the extended Afritada class
@@ -58,8 +59,5 @@ public class Task131 {
         meal2.showIngredients();
         meal3.showIngredients();
         meal4.showIngredients();
-
-      
-        
     }
 }
