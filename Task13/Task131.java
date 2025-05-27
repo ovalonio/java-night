@@ -30,7 +30,7 @@ class Mechado extends Afritada{
     System.out.println("Mechado = "+java.util.Arrays.toString(Ingredients)+"🍲 \n");
   }
 }
- 
+
 class Caldereta extends Afritada {
   public void showIngredients() {
     String[] Ingredients = 
