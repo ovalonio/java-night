@@ -31,13 +31,11 @@ class InputScore{
                 (x <= 89) ? "Grade B": 
                 (x <= 100) ? "Grade A": "";
             System.out.println(a);
-                sc.close();
-
+            sc.close();
         }
         else if (x >= 101 ){
             System.out.println();
             System.out.println("(1 - 100 digit only)");
-            System.out.println();
             new InputScore();
             sc.close();
         }
