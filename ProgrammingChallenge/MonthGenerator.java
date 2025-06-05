@@ -1,10 +1,6 @@
 package ProgrammingChallenge;
 
 import java.time.Month;
-//import java.time.MonthDay;
-//import java.time.Year;
-//import java.time.DayOfWeek;
-//import java.time.LocalDate;
 import java.time.YearMonth;
 import java.util.Scanner;
 
