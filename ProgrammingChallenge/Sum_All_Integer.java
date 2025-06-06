@@ -19,15 +19,17 @@ class Initialize{
         while (true){
             
             System.out.print("= " + sumX + " + ");
-            String textInput = sc.nextLine();
+            String txt = sc.nextLine();
             
-            if (textInput.equalsIgnoreCase("exit")){
+            if (txt.equalsIgnoreCase("exit")){
                 System.out.println("  closing... ");
+                System.out.println();
+                System.out.println();
                 break;
             }
                 
                 try{
-                    int sumY = Integer.parseInt(textInput);
+                    int sumY = Integer.parseInt(txt);
                     sumX += sumY;
 
                 }catch (NumberFormatException e) {
