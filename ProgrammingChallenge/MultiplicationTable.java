@@ -15,7 +15,6 @@ class PrepareTable{
         int y;
 
         for (int x = 1 ; x <= row ; x++){
-            //System.out.println("(x: " +x+ ")");
             for (y = 1; y <= row ; y++, w += x){
                 System.out.print(" " + w + " ");
             }
@@ -24,3 +23,5 @@ class PrepareTable{
         }
     }
 }
+
+
