@@ -17,6 +17,5 @@ public class CountNumberOfWord {
         System.out.println(y);
 
         sc.close();
-
     }
 }
