@@ -12,9 +12,11 @@ public class CountNumberOfWord {
         String z = sc.nextLine();
 
         String[] x = z.trim().split("\\s+");
-        System.out.print("The number of word you have put in: ");
+        System.out.print("The number of word/words you have: ");
         int y = x.length;
         System.out.println(y);
+
+        sc.close();
 
     }
 }
