@@ -11,6 +11,7 @@ public class SumAndAverage{
     }
 }
 
+
 class Input{
     public Input(){
         int[] number = new int[3];
