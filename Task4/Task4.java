@@ -17,7 +17,8 @@ public class Task4{
         
         Scanner sc = new Scanner(System.in);
         
-        System.out.print("Type a word that is palindrome: ");
+        System.out.println("Type a word, number, or other sequence of characters to check if it palindrome");
+        System.out.print("@/> ");
         String input = sc.nextLine();
         int y = input.length();
         int z = input.length();
@@ -38,9 +39,9 @@ public class Task4{
         sc.close();
 
         if (input.equals(reverseString.toString())){
-            System.out.println("the word you enter is palindrome");
+            System.out.println("The input string is a palindrome.");
         }else
-            System.out.println("the word you enter is 'not' palindrome");
+            System.out.println("The input string is not a palindrome.");
 
     }
 }
